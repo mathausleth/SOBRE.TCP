@@ -1,0 +1,42 @@
+# SOBRE.TCP
+Module TCP de Sobre.js
+
+L'objectif du module TCP était ultra simple : envoyer du texte d'un client à un serveur.
+ET C'EST TOUT !
+
+L'idée était de faire communiquer deux de mes serveurs ensembles.
+Ses serveurs sont sur un même LAN et il me fallait quelque chose de rapide à développer et simple à mettre en place.
+Ses serveurs ne sont pas des serveurs web et les sockets répondaient PARFAITEMENT à l'objectif.
+Ainsi est né SOBRE.TCP.
+
+La classe de données est venue plus tard lorsque le module SOBRE.DATA à vu le jour.
+		
+# SOBRE.JS
+
+Sobre.js est une librairie javascript que je développe et utilise depuis 2015.
+
+De 2015 à 2018 :
+	- Les versions 0 et 1 étaient des versions clientes utilisées avec les navigateurs en ajoutant le script au html.
+
+De 2018 à 2022 :
+	- La version 2 a été profondément modifiée afin de fonctionner uniquement en mode serveur avec Nodejs.
+	
+Maintenant (2023) :
+	- La version 3 va être redécoupée en modules autonomes et devra fonctionner aussi bien en mode serveur que client.
+		(note : les modules en V2 étaient trop dépendants les uns des autres et les projets trop dépendants des utilisateurs.)
+
+Sobre.js à l'orgine étaient une librairie de fonctions réutilisables que j'utilisais dans tous mes projets personnels en javascript.
+Avec le temps, c'est devenu pour moi une façon de développer et un véritable framework que j'utilise régulièrement dans mes projets persos.
+
+Jusqu'à présent, Sobre.js n'avait pas pour but d'être visible (et c'est toujours le cas) et utilisé par d'autres (mais libre à vous).
+Cependant, il s'agit d'un projet qui me tient à coeur depuis des années et que je continue à faire évoluer.
+
+Pour développer des UI rapidement ma dévise était : "Sobre mais efficace !" et la librairie s'inscrit dans cette idéologie.
+
+Etre Sobre : Pas de super design, juste des fonctionnalitées simples !
+Coder rapidement : Coder une page web en la décrivant, aussi simplement !
+
+Modules par modules, j'essaierais de publier la librairie au complet.
+Ce sera probablement long mais ce n'est pas comme ci j'avais quelconque attente !
+
+Mathaus Leth.
